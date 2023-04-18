@@ -1,0 +1,180 @@
+/* https://colorhunt.co/palette/e1ffb1c7f2a4b6e388fcffb2 */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5em;
+  background-color: #E1FFB1;
+  /* height: 100vh; */
+}
+
+.avatar { width: 10%;}
+
+h1{
+  color: #7FB77E;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /* font-size: 90px; */
+  /* 1em = 16px -> make size dynamic */
+  /* rem is prefered over em/px/% */
+  font-size: 6rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #7FB77E;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #7FB77E;
+}
+
+.top-container {
+  position: relative;
+  padding: 100px 0 80px 0;
+}
+
+.intro {
+  width: 40%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  z-index: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 45%;
+  left: 30%
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.skill-row img{
+  width: 250px;
+  height: 250px;
+}
+
+p {
+  text-align: justify;
+  /* text-align: left; */
+  line-height: 2;
+}
+
+.coding-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* .code-skill-description {
+  clear: left;
+} */
+
+.software-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.contact-me p {
+  text-align: center;
+}
+
+
+
+
+/* img:hover {
+  background-color: #CCD6A6;
+} */
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #FCFFB2;
+  border-width: 15px;
+  width: 7%;
+}
+
+a {
+  text-decoration: none
+}
+
+a:hover {
+  color: #FCFFB2;
+}
+
+.bottom-container {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  padding: 2rem 0 1rem;
+  background-color: #7FB77E;
+}
+
+.footer-link {
+  color: #E1FFB1;
+  padding: 0 15px;
+}
+
+.contact-info {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+.bottom-container p{
+  text-align: center;
+  color: white;
+}
+
+
+.btn {
+  background: #7FB77E;
+  background-image: -webkit-linear-gradient(top, #7FB77E, #A0D995);
+  background-image: -moz-linear-gradient(top, #7FB77E, #A0D995);
+  background-image: -ms-linear-gradient(top, #7FB77E, #A0D995);
+  background-image: -o-linear-gradient(top, #7FB77E, #A0D995);
+  background-image: linear-gradient(to bottom, #7FB77E, #A0D995);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  /* font-family: 'Crimson Text', serif; */
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #C7F2A4;
+  background-image: -webkit-linear-gradient(top, #C7F2A4, #B6E388);
+  background-image: -moz-linear-gradient(top, #C7F2A4, #B6E388);
+  background-image: -ms-linear-gradient(top, #C7F2A4, #B6E388);
+  background-image: -o-linear-gradient(top, #C7F2A4, #B6E388);
+  background-image: linear-gradient(to bottom, #C7F2A4, #B6E388);
+  text-decoration: none;
+}
